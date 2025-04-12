@@ -1,0 +1,64 @@
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dedede;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+.submit-btn {
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin: 24px 0;
+    border: none;
+    color: #fff;
+    background-color: #567DFF;
+    outline: none;
+}
+
+.ant-empty {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.ml-1 {
+    margin-left: 1rem;
+}
+
+.ant-divider {
+    margin: .8rem 0;
+}
+
+.glyph-popover .ant-popover-inner-content {
+    max-height: 50vh;
+    overflow-y: auto;
+    padding-right: 12px !important;
+}
+
+.ant-popover-inner-content::-webkit-scrollbar {
+    width: 4px;
+}
+
+ul {
+    list-style: none;
+}
+
+.active-component {
+    padding: 4px;
+    border-radius: 6px;
+}
+
+#app {
+    padding: var(--gap) var(--margin-inline);
+    box-sizing: border-box;
+    height: 100vh;
+}

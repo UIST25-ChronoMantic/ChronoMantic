@@ -1,0 +1,21 @@
+.target-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 24px;
+}
+
+.target-list .target-item {
+  padding: 4px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.target-list .target-item.disabled {
+  background-color: #3331 !important;
+  text-decoration: line-through;
+  color: #999;
+}
+

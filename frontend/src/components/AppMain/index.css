@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    justify-content: center;
+    gap: var(--side-gap);
+    height: var(--height);
+    margin-top: var(--gap);
+}
+
+.main-left,
+.main-middle {
+    flex: 1 1 var(--side-width);
+    max-width: var(--side-width);
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    transition: .1s;
+}
+
+.main-right {
+    width: var(--width);
+    display: flex;
+    flex: 2 1 0;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-right .ant-divider {
+    padding: 0 20px;
+    margin: 0;
+    transform: translateY(4px);
+}
+
+.main-right .panel {
+    padding-bottom: 2px;
+}
+
+.main .panel {
+    flex: 2 1 0;
+}
+
+.main .panel > .panel-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main .nl-query-form {
+    flex-shrink: 0;
+}
+
+.main .table-view {
+    flex: 3 1 0;
+}
+
+.main .main-view {
+    flex: 3 0 0;
+    padding-top: 10px;
+    padding-inline: 12px;
+}
+
+.main .main-right.hide {
+    max-width: 0;
+    flex-grow: 0;
+    margin-right: 0;
+    overflow: hidden;
+}

@@ -1,0 +1,7 @@
+.csv-loader input.hidden {
+    display: none;
+}
+
+.csv-loader {
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+:root {
+  --width: 50%;
+  --header-height: 50px;
+  --side-width: calc((100% - var(--width)) / 2);
+  --height: calc(100vh - var(--header-height) - var(--gap) * 3);
+  --gap: 6px;
+  --side-gap: 10px;
+  --margin-inline: 15px;
+  --primary-color: #0E3F78;
+}
+
+@font-face {
+  font-family: 'PingFangTC';
+  src: url('./assets/fonts/PingFangTC-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'JetBrainsMono-Regular';
+  src: url('./assets/fonts/JetBrainsMono-Regular.woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets/fonts/Roboto-VariableFont_wdth\,wght.ttf');
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: 'Roboto', 'JetBrainsMono-Regular', 'Montserrat-Regular', 'PingFangTC' !important;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #F6F6F6;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}

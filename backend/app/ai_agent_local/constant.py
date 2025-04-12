@@ -1,0 +1,1 @@
+FUZZY_FACTOR = 0.1

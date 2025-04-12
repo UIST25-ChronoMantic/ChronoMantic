@@ -1,0 +1,56 @@
+.main-view {
+    flex-basis: fit-content;
+    flex-grow: 0;
+    padding-top: 10px;
+}
+
+.main-view .bg {
+    /* background-color: #DDEFFF; */
+    border-radius: 4px;
+    display: flex;
+    min-height: 0;
+}
+
+.main-view .bg svg {
+    flex: 1;
+}
+
+.main-view .panel-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-view .detail {
+    flex: 6 0 0;
+    position: relative;
+}
+
+.main-view .overview {
+    flex: 1 0 0;
+}
+
+.checkbox-list {
+    margin: 4px 0 10px;
+    padding: 0;
+}
+
+.main-view .detail .pos {
+    position: absolute;
+    opacity: .3;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50px);
+}
+
+.recommendation-list {
+    max-width: 50vw;
+}
+
+.recommendation-list>div {
+    padding: 4px 12px;
+}
+
+.recommendation-list > div:hover {
+    border-radius: 8px;
+    background-color: #eeec;
+}

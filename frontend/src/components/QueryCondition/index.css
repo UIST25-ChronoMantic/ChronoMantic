@@ -1,0 +1,45 @@
+.query-condition .panel-content {
+    padding: 16px;
+}
+
+.query-condition.active {
+    flex-grow: 1;
+}
+
+.query-condition.hide {
+    flex-grow: 0;
+}
+
+.query-condition section {
+    margin-bottom: 12px;
+}
+
+.query-condition kbd {
+    margin: 0;
+}
+
+.query-condition section h4:first-child {
+    margin: 4px 0 12px;
+}
+
+.query-condition section h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.query-condition section .ant-typography {
+    margin: 0;
+}
+
+.query-condition section .trend-item .trend-item-attr {
+    margin-top: 8px;
+}
+
+.query-condition section .trend-item .trend-item-attr .ant-typography {
+    margin-bottom: 8px;
+}
+
+.query-condition .center {
+    margin: auto;
+    width: fit-content;
+}

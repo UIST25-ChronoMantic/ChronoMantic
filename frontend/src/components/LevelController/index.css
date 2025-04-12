@@ -1,0 +1,36 @@
+.level-controller {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
+    color: var(--primary-color);
+}
+
+.level-controller .level-controller-title,
+.level-controller .level-controller-value {
+    font-size: 16px;
+    white-space: nowrap;
+    color: #000;
+}
+
+.level-controller .level-controller-title {
+    color: var(--primary-color);
+}
+
+.level-controller .ant-slider {
+    width: 100px;
+    margin: 0;
+}
+
+.level-controller .ant-slider .ant-slider-rail,
+.level-controller .ant-slider .ant-slider-track {
+    border-radius: 99px;
+}
+
+.level-controller .ant-slider .ant-slider-handle::after {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px var(--primary-color);
+}
